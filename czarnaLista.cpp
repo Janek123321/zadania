@@ -1,28 +1,28 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-/*
-void wpisz()
-{
-    string imie, nazwisko;
-    short wiek, numerButa;
-    fstream plik;
-    .plikopen("baza.txt", ios::out | ios::app);
-    cout << "Siema podaj swoje dane, Imie,nazwisko,wiek,numer buta \n";
-    cin >> imie;
-    cin >> nazwisko;
-    cin >> wiek;
-    cin >> numerButa;
-    if (plik.good() == true)
-    {
-        plik << imie << " " << nazwisko << " " << wiek << " " << numerButa << endl;
-        plik.close();
-    }
-    else
-    {
-        cout << "Nie udalo sie";
-    }
-} */
+// /*
+// void wpisz()
+// {
+//     string imie, nazwisko;
+//     short wiek, numerButa;
+//     fstream plik;
+//     .plikopen("baza.txt", ios::out | ios::app);
+//     cout << "Siema podaj swoje dane, Imie,nazwisko,wiek,numer buta \n";
+//     cin >> imie;
+//     cin >> nazwisko;
+//     cin >> wiek;
+//     cin >> numerButa;
+//     if (plik.good() == true)
+//     {
+//         plik << imie << " " << nazwisko << " " << wiek << " " << numerButa << endl;
+//         plik.close();
+//     }
+//     else
+//     {
+//         cout << "Nie udalo sie";
+//     }
+// } */
 void sprawdz(string nazwiskoDoSprawdzenia)
 {
     string nazwisko, imie;
