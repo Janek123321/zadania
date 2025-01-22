@@ -1,5 +1,4 @@
 // ZA POMOCA KLASY ABSTRAKCYJNEJ
-
 #include <iostream>
 using namespace std;
 class Osoba
