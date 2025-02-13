@@ -32,7 +32,7 @@ public:
         {
             if (tablica[i] == argumentP)
             {
-                cout << "index argumentu " << argumentP << ": "<<i;
+                cout << "index argumentu " << argumentP << ": " << i;
                 return i;
             }
         }
@@ -68,13 +68,11 @@ public:
 };
 int main()
 {
-    int rozmiarP, liczbaSzukana;
-    cout << "Podaj rozmiar tablicy. Wartosc musi byc wieksza od 20: \n";
-    cin >> rozmiarP;
+    int liczbaSzukana;
     cout << "Podaj liczbe ktora chcesz znalezc: \n";
     cin >> liczbaSzukana;
 
-    Tablice tablica1(rozmiarP);
+    Tablice tablica1(500);
 
     tablica1.wyswietlElementyTab();
     cout << tablica1.nieParzyste() << endl;
